@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.each-appointment {
+  border: 1px solid #b5b7c4;
+  border-radius: 13px;
+  padding: 2px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-appointment {
+    width: 30%;
+    margin-right: 15px;
+  }
+}
+
+.title {
+  color: #171f46;
+  font-weight: bold;
+}
+
+.date {
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #b5b7c4;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+    margin-top: 13px;
+
+}
+
+.star-img {
+  width: 23px;
+  height: 23px;
+}
+
+@media screen and (min-width:768px){
+  button{
+      margin-top: 0px;
+
+  }
+}

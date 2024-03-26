@@ -1,0 +1,152 @@
+/* Write your CSS here */
+.bgcon {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  font-family: roboto;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 80%;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 95%;
+    padding: 50px;
+  }
+}
+
+.main-head {
+  color: #1e293b;
+  font-size: 22px;
+}
+
+.form-img-con {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .bgcon {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-head {
+    align-self: flex-start;
+    font-size: 27px;
+  }
+  .form-img-con {
+    flex-direction: row;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+.main-img {
+  width: 75%;
+  margin-bottom: 15px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-img {
+    order: 1;
+    width: 45%;
+  }
+}
+
+.label {
+  color: #b5b7c4;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+input {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  input {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+.add-btn {
+  background-color: #8b5cf6;
+  color: #cbd2d9;
+  border: none;
+  border-radius: 8px;
+  width: 70px;
+  height: 28px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .add-btn {
+    width: 70px;
+    height: 28px;
+  }
+}
+
+hr {
+  margin-top: 15px;
+  color: #b5b7c4;
+  width: 100%;
+}
+
+.starred-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bot-head {
+  color: #1e293b;
+  font-size: 22px;
+}
+
+.star-btn {
+  background-color: transparent;
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  border-radius: 17px;
+  width: 75px;
+  height: 28px;
+}
+
+.starred-btn{
+  background-color: #9897f0;
+  color: #ffffff;
+}
+
+.appointments-list {
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointments-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
